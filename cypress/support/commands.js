@@ -11,10 +11,17 @@ Cypress.Commands.add('paginaInicial', () => {
     cy.get('[data-testid="btnLogin"]').click()
     });
     Cypress.Commands.add('selecionarProdutos', () => { 
+      
       cy.get('[data-testid="__CAROUSEL_ITEM_0_READY__"] > .r-1kihuf0 > .r-1jnx3et > .r-13w96dm > [data-testid="banner"] > .css-146c3p1').click()
       cy.get('[style="padding: 8px;"] > :nth-child(1) > .r-18u37iz > :nth-child(1) > [data-testid="productDetails"] > .r-cqee49').click()
       cy.get('[style="font-size: 22px; font-family: Montserrat-Bold; color: rgb(79, 79, 79);"]').should('contain','Womens Wingtip Shoes Handmade')
       });
+      Cypress.Commands.add('retirarProdutos', () => { 
+        cy.get('[data-testid="remove"]').click()
+    });
+    Cypress.Commands.add('alterarProdutosCarrinho', () => { 
+      cy.get('[data-testid="addItem"]').click()
+  });
 
       Cypress.Commands.add('adicionarCarrinho', () => { 
         cy.get('[data-testid="addToCart"]').click()

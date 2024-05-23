@@ -1,0 +1,309 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "projectRoot": "C:\\ui-cypress",
+    "projectName": "ui-cypress",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\ui-cypress\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\ui-cypress",
+    "fixturesFolder": "C:\\ui-cypress\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 51295,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "21.6.1",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\ui-cypress\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\ui-cypress\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\ui-cypress\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "125",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "125.0.6422.76"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Firefox",
+        "family": "firefox",
+        "majorVersion": "126",
+        "name": "firefox",
+        "path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+        "version": "126.0"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "125",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "125.0.2535.51"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\jessi\\AppData\\Local\\Cypress\\Cache\\13.9.0\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.9.0",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.9.0",
+  "endedTestsAt": "2024-05-23T23:47:00.833Z",
+  "osName": "win32",
+  "osVersion": "10.0.19045",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-05-23T23:44:03.368Z",
+        "end": "2024-05-23T23:45:16.638Z",
+        "duration": 73270
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/ui-cypress/cypress/e2e/cadastro.cy.js",
+        "fileExtension": ".js",
+        "fileName": "cadastro",
+        "name": "cadastro.cy.js",
+        "relative": "cypress\\e2e\\cadastro.cy.js"
+      },
+      "stats": {
+        "duration": 74831,
+        "endedAt": "2024-05-23T23:45:16.633Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-05-23T23:44:01.802Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 72312,
+          "state": "passed",
+          "title": [
+            "entro no site para criar conta",
+            "clico para fazer o cadastro"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 3,
+        "passes": 3,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-05-23T23:46:10.106Z",
+        "end": "2024-05-23T23:46:34.210Z",
+        "duration": 24104
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/ui-cypress/cypress/e2e/carrinho.cy.js",
+        "fileExtension": ".js",
+        "fileName": "carrinho",
+        "name": "carrinho.cy.js",
+        "relative": "cypress\\e2e\\carrinho.cy.js"
+      },
+      "stats": {
+        "duration": 24433,
+        "endedAt": "2024-05-23T23:46:34.204Z",
+        "failures": 0,
+        "passes": 3,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-05-23T23:46:09.771Z",
+        "suites": 1,
+        "tests": 3
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 17984,
+          "state": "passed",
+          "title": [
+            "acesso a pagina inicial",
+            "removendo produtos do carrinho"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 3202,
+          "state": "passed",
+          "title": [
+            "acesso a pagina inicial",
+            "adicionando produtos no carrinho"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 2752,
+          "state": "passed",
+          "title": [
+            "acesso a pagina inicial",
+            "alterar produtos do carrinho"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-05-23T23:46:51.658Z",
+        "end": "2024-05-23T23:47:00.842Z",
+        "duration": 9184
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/ui-cypress/cypress/e2e/checkout.cy.js",
+        "fileExtension": ".js",
+        "fileName": "checkout",
+        "name": "checkout.cy.js",
+        "relative": "cypress\\e2e\\checkout.cy.js"
+      },
+      "stats": {
+        "duration": 9189,
+        "endedAt": "2024-05-23T23:47:00.833Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-05-23T23:46:51.644Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 9141,
+          "state": "passed",
+          "title": [
+            "acesso a página inicial",
+            "faço o checkout"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2024-05-23T23:44:01.802Z",
+  "totalDuration": 108453,
+  "totalFailed": 0,
+  "totalPassed": 5,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 3,
+  "totalTests": 5
+}

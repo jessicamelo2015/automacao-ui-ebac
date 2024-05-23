@@ -11,6 +11,7 @@ beforeEach(() => {
 });
 
   it('clico para fazer o cadastro', () => {
+    cy.intercept('POST','**/public/addUser',{fixture:'cadastro'}).as('POST')
     homePage.openMenu()
     cadastroPage.fazerCadastro()
     cy.get('.r-u9wvl5>.css-146c3p1').should('contain','EBAC Store')
